@@ -1,0 +1,6 @@
+print('Nhap gia tri :')
+a = input()
+b = a.split()
+c = map(int, b)
+tong = sum(c)
+print('Tong cua day so : ', tong)
